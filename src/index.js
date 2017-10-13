@@ -9,7 +9,6 @@ import 'react-dates/lib/css/_datepicker.css';
 
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
-import { addExpense } from './actions/expenses';
 
 const store = configureStore();
 
