@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "enzyme": "^3.1.0",
-    "enzyme-adapter-react-16": "^1.0.1",
-    "enzyme-to-json": "^3.1.2",
     "identity-obj-proxy": "^3.0.0",
     "moment": "^2.18.1",
     "node-sass-chokidar": "^0.0.3",
@@ -20,9 +17,14 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
-    "react-test-renderer": "^16.0.0",
     "redux": "^3.7.2",
     "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "enzyme-to-json": "^3.1.2",
+    "react-test-renderer": "^16.0.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
