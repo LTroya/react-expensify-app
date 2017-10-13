@@ -39,8 +39,8 @@ const mapDispatchToProps = (dispatch) => ({
     editExpense: (id, expense) => {
         dispatch(editExpense(id, expense));
     },
-    removeExpense: (id) => {
-        dispatch(removeExpense({ id }));
+    removeExpense: (data) => {
+        dispatch(removeExpense(data));
     },
 });
 
