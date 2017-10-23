@@ -4,16 +4,16 @@ import toJson from 'enzyme-to-json';
 import { EditExpensePage } from '../../components/EditExpensePage';
 import expenses from '../fixtures/expenses';
 
-let editExpense, expense, history, startRemoveExpense, wrapper;
+let startEditExpense, expense, history, startRemoveExpense, wrapper;
 
 beforeEach(() => {
     expense = expenses[0];
-    editExpense = jest.fn();
+    startEditExpense = jest.fn();
     startRemoveExpense = jest.fn();
     history = { push: jest.fn() };
     wrapper = shallow(
         <EditExpensePage
-            editExpense={editExpense}
+            startEditExpense={startEditExpense}
             startRemoveExpense={startRemoveExpense}
             expense={expense}
             history={history} id={expense.id}/>);
@@ -26,7 +26,7 @@ test('Should render EditExpensePage correctly', () => {
 test('Should handle onSubmit', () => {
     wrapper.find('ExpenseForm').prop('onSubmit')(expense);
     expect(history.push).toHaveBeenLastCalledWith('/');
-    expect(editExpense).toHaveBeenLastCalledWith(expense.id, expense);
+    expect(startEditExpense).toHaveBeenLastCalledWith(expense.id, expense);
 });
 
 test('Should handle start remove expense', () => {
