@@ -23,13 +23,6 @@ exports[`Should render Header correctly 1`] = `
   <NavLink
     activeClassName="is-active"
     ariaCurrent="true"
-    to="/edit"
-  >
-    Edit expense
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    ariaCurrent="true"
     to="/help"
   >
     Help
