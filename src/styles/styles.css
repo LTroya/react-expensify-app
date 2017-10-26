@@ -90,6 +90,10 @@ button:disabled {
   .page-header__title span {
     font-weight: bold; }
 
+.page-header__note {
+  display: block;
+  font-size: 1.4rem; }
+
 .input-group {
   display: flex;
   flex-direction: column;
