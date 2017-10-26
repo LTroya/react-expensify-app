@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 html {
   font-size: 62.5%; }
 
@@ -50,6 +53,9 @@ button:disabled {
 .button--link {
   background: none; }
 
+.button--secondary {
+  background: #888; }
+
 .header {
   background: #364051; }
 
@@ -83,3 +89,38 @@ button:disabled {
   margin: 0; }
   .page-header__title span {
     font-weight: bold; }
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem; }
+  @media (min-width: 45rem) {
+    .input-group {
+      flex-direction: row;
+      margin-bottom: 3.2rem; } }
+
+.input-group__item {
+  margin-bottom: 1.2rem; }
+  @media (min-width: 45rem) {
+    .input-group__item {
+      margin: 0 1.2rem 0 0; } }
+
+.text-input, .select, .textarea {
+  border: 1px solid #cacccd;
+  height: 50px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 1.2rem; }
+
+.textarea {
+  height: 10rem; }
+
+.form {
+  display: flex;
+  flex-direction: column; }
+  .form > * {
+    margin-bottom: 1.6rem; }
+
+.form__error {
+  margin: 0 0 1.6rem 0;
+  font-style: italic; }
