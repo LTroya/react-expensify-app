@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436bd108-110e-42f9-bc03-f2ae48b44e22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/_visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoadingPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/components/_loader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/components/LoadingPage.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/base/_settings.scss" afterPath="$PROJECT_DIR$/src/styles/base/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_page-header.scss" afterPath="$PROJECT_DIR$/src/styles/components/_page-header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/styles.css" afterPath="$PROJECT_DIR$/src/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/styles.scss" afterPath="$PROJECT_DIR$/src/styles/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/AddExpensePage.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/AddExpensePage.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/EditExpensePage.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/EditExpensePage.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseForm.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseList.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseList.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseListFilters.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseListFilters.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpenseListItem.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpensesSummary.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpensesSummary.test.js.snap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/components/__snapshots__/Header.test.js.snap" afterPath="$PROJECT_DIR$/src/tests/components/__snapshots__/Header.test.js.snap" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +30,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="51" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LoadingPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_loader.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/_loader.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="312">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -44,6 +80,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Header.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/components/Header.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingPage.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/components/LoadingPage.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ExpenseList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ExpenseList.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_list.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_list.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/components/_list.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
@@ -99,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/ExpensesSumary.js" />
-        <option value="$PROJECT_DIR$/src/tests/components/ExpensesSummary.js" />
-        <option value="$PROJECT_DIR$/src/tests/components/ExpensesSummary.test.js" />
         <option value="$PROJECT_DIR$/src/tests/components/__snapshots__/ExpensesSummary.test.js.snap" />
         <option value="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" />
         <option value="$PROJECT_DIR$/src/playground/promises.js" />
@@ -120,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/reducers/auth.js" />
         <option value="$PROJECT_DIR$/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/src/actions/auth.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/auth.test.js" />
         <option value="$PROJECT_DIR$/src/tests/reducers/auth.test.js" />
         <option value="$PROJECT_DIR$/src/routers/PrivateRoute.js" />
@@ -144,12 +196,16 @@
         <option value="$PROJECT_DIR$/src/components/ExpenseForm.js" />
         <option value="$PROJECT_DIR$/src/components/EditExpensePage.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_visibility.scss" />
-        <option value="$PROJECT_DIR$/src/styles/styles.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/_page-header.scss" />
         <option value="$PROJECT_DIR$/src/components/ExpenseListItem.js" />
         <option value="$PROJECT_DIR$/src/styles/base/_settings.scss" />
         <option value="$PROJECT_DIR$/src/components/ExpenseList.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_list.scss" />
+        <option value="$PROJECT_DIR$/src/styles/styles.scss" />
+        <option value="$PROJECT_DIR$/src/styles/components/_loader.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/LoadingPage.js" />
+        <option value="$PROJECT_DIR$/src/tests/components/LoadingPage.test.js" />
       </list>
     </option>
   </component>
@@ -240,32 +296,13 @@
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -290,11 +327,11 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests/components" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src/tests/reducers" />
       <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,7 +378,7 @@
       <workItem from="1508690659508" duration="1418000" />
       <workItem from="1508775263625" duration="9308000" />
       <workItem from="1508888456271" duration="743000" />
-      <workItem from="1508981517298" duration="7910000" />
+      <workItem from="1508981517298" duration="8408000" />
     </task>
     <task id="LOCAL-00001" summary="Add ExpensesSummary test snapshot">
       <created>1507933808359</created>
@@ -455,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508989357183</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Style list expense page">
+      <created>1508990605180</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508990605180</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100769000" />
+    <option name="totallyTimeSpent" value="101267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1004" extended-state="6" />
@@ -532,7 +576,8 @@
     <MESSAGE value="Style login page" />
     <MESSAGE value="Style header and summary area" />
     <MESSAGE value="Style add and edit expenses page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style add and edit expenses page" />
+    <MESSAGE value="Style list expense page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style list expense page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -541,21 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/components/ExpensesSummary.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/components/ExpenseForm.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="79" column="50" lean-forward="true" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/playground/promises.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -643,14 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/components/Header.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/components/LoginPage.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -679,14 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -883,14 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_page-header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -927,6 +933,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_loader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/components/Header.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoadingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/components/LoadingPage.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
