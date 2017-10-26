@@ -40,6 +40,46 @@ button:disabled {
   background: #1c88bf;
   border: none;
   color: white;
+  display: inline-block;
   font-size: 1.8rem;
   font-weight: 300;
-  padding: 1.2rem; }
+  line-height: 1;
+  padding: 1.2rem;
+  text-decoration: none; }
+
+.button--link {
+  background: none; }
+
+.header {
+  background: #364051; }
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0; }
+
+.header__title {
+  color: white;
+  text-decoration: none; }
+  .header__title h1 {
+    margin: 0; }
+
+.content-container {
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  max-width: 80rem; }
+
+.page-header {
+  background: #f7f7f7;
+  margin-bottom: 3.2rem;
+  padding: 3.2rem 0; }
+
+.page-header__actions {
+  margin-top: 1.6rem; }
+
+.page-header__title {
+  font-weight: 300;
+  margin: 0; }
+  .page-header__title span {
+    font-weight: bold; }
