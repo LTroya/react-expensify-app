@@ -37,5 +37,6 @@ exports[`Should render EditExpensePage correctly 1`] = `
       Remove Expense
     </button>
   </div>
+  <Connect(RemoveExpenseModal) />
 </div>
 `;

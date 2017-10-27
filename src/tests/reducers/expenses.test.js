@@ -1,4 +1,3 @@
-import moment from 'moment';
 import expensesReducer from '../../reducers/expenses';
 import expenses from '../fixtures/expenses';
 

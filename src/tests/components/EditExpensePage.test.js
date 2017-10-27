@@ -4,17 +4,17 @@ import toJson from 'enzyme-to-json';
 import { EditExpensePage } from '../../components/EditExpensePage';
 import expenses from '../fixtures/expenses';
 
-let startEditExpense, expense, history, startRemoveExpense, wrapper;
+let startEditExpense, expense, history, confirmRemoveExpense, wrapper;
 
 beforeEach(() => {
     expense = expenses[0];
     startEditExpense = jest.fn();
-    startRemoveExpense = jest.fn();
+    confirmRemoveExpense = jest.fn();
     history = { push: jest.fn() };
     wrapper = shallow(
         <EditExpensePage
             startEditExpense={startEditExpense}
-            startRemoveExpense={startRemoveExpense}
+            confirmRemoveExpense={confirmRemoveExpense}
             expense={expense}
             history={history} id={expense.id}/>);
 });
@@ -29,8 +29,7 @@ test('Should handle onSubmit', () => {
     expect(startEditExpense).toHaveBeenLastCalledWith(expense.id, expense);
 });
 
-test('Should handle start remove expense', () => {
-   wrapper.find('button').simulate('click');
-    expect(history.push).toHaveBeenLastCalledWith('/');
-    expect(startRemoveExpense).toHaveBeenLastCalledWith({id: expense.id});
+test('Should handle confirm remove expense', () => {
+    wrapper.find('button').simulate('click');
+    expect(confirmRemoveExpense).toHaveBeenLastCalledWith(expense);
 });
