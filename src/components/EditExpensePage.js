@@ -2,8 +2,25 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ExpenseForm from './ExpenseForm';
 import { startEditExpense, startRemoveExpense } from '../actions/expenses';
+import RemoveExpenseModal from './RemoveExpenseModal';
 
 export class EditExpensePage extends Component {
+    state = {
+        showModal: false,
+    };
+
+    handleHideModal = () => {
+        this.setState((prevState) => ({
+            showModal: false,
+        }));
+    };
+
+    handleRemoveRequested = () => {
+        this.setState((prevState) => ({
+            showModal: true,
+        }));
+    };
+
     handleEditExpense = (expense) => {
         this.props.startEditExpense(this.props.expense.id, expense);
         this.props.history.push('/');
@@ -11,6 +28,7 @@ export class EditExpensePage extends Component {
 
     handleRemoveExpense = () => {
         this.props.startRemoveExpense({ id: this.props.expense.id });
+        this.handleHideModal();
         this.props.history.push('/');
     };
 
@@ -28,10 +46,16 @@ export class EditExpensePage extends Component {
                         onSubmit={this.handleEditExpense}
                     />
 
-                    <button className="button button--secondary" onClick={this.handleRemoveExpense}>
+                    <button className="button button--secondary" onClick={this.handleRemoveRequested}>
                         Remove Expense
                     </button>
                 </div>
+
+                <RemoveExpenseModal expense={this.props.expense}
+                                     showModal={this.state.showModal}
+                                     handleHideModal={this.handleHideModal}
+                                     handleRemoveRequested={this.handleRemoveRequested}
+                                     handleRemoveExpense={this.handleRemoveExpense}/>
             </div>
         );
     }
