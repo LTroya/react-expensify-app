@@ -52,7 +52,8 @@ button:disabled {
   text-decoration: none; }
 
 .button--link {
-  background: none; }
+    background: none;
+    margin-bottom: 0; }
 
 .button--secondary {
   background: #888; }
