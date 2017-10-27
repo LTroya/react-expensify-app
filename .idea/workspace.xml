@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="436bd108-110e-42f9-bc03-f2ae48b44e22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EditExpensePage.js" afterPath="$PROJECT_DIR$/src/components/EditExpensePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_buttons.scss" afterPath="$PROJECT_DIR$/src/styles/components/_buttons.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditExpensePage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditExpensePage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/EditExpensePage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-501">
               <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -126,7 +136,6 @@
         <option value="$PROJECT_DIR$/src/routers/AppRouter.js" />
         <option value="$PROJECT_DIR$/src/firebase/firebase.js" />
         <option value="$PROJECT_DIR$/src/actions/auth.js" />
-        <option value="$PROJECT_DIR$/src/styles/components/_buttons.scss" />
         <option value="$PROJECT_DIR$/src/components/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/tests/components/RemoveExpensesModal.js" />
         <option value="$PROJECT_DIR$/src/styles/styles.scss" />
@@ -144,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/tests/components/RemoveExpenseModal.test.js" />
         <option value="$PROJECT_DIR$/src/components/RemoveExpenseModal.js" />
         <option value="$PROJECT_DIR$/src/components/EditExpensePage.js" />
+        <option value="$PROJECT_DIR$/src/styles/components/_buttons.scss" />
       </list>
     </option>
   </component>
@@ -271,29 +281,8 @@
               <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="__snapshots__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expensify-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expensify-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +357,7 @@
       <workItem from="1508775263625" duration="9308000" />
       <workItem from="1508888456271" duration="743000" />
       <workItem from="1508981517298" duration="8623000" />
-      <workItem from="1509058769928" duration="8552000" />
+      <workItem from="1509058769928" duration="8720000" />
     </task>
     <task id="LOCAL-00001" summary="Add ExpensesSummary test snapshot">
       <created>1507933808359</created>
@@ -531,11 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509070599849</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Remove unused state">
+      <created>1509070715397</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1509070715397</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110034000" />
+    <option name="totallyTimeSpent" value="110202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1005" extended-state="6" />
@@ -615,7 +611,8 @@
     <MESSAGE value="Show modal to confirm remove expense action" />
     <MESSAGE value="Set up RemoveExpenseModal &#10;Set up a new expense reducer to manage remove expense&#10;Modify EditExpensePage to delegate removeExpense to the modal" />
     <MESSAGE value="Add missing snapshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add missing snapshots" />
+    <MESSAGE value="Remove unused state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused state" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -813,14 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
           <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1029,6 +1018,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-501">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
