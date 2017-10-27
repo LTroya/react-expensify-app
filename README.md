@@ -9,4 +9,6 @@ For running the tests:
 
 - npm run test or yarn test
 
+[Live demo](https://ltroya-react-expensify-app.herokuapp.com)
+
 Done, happy coding!
