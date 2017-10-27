@@ -6,10 +6,6 @@ import { confirmRemoveExpense } from '../actions/expense';
 import RemoveExpenseModal from './RemoveExpenseModal';
 
 export class EditExpensePage extends Component {
-    state = {
-        showModal: false,
-    };
-
     handleRemoveExpenseConfirmation = () => {
         this.props.confirmRemoveExpense(this.props.expense);
     };
