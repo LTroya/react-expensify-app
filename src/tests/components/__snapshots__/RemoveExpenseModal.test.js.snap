@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render RemoveExpenseModal correclty 1`] = `
+<Modal
+  ariaHideApp={true}
+  bodyOpenClassName="ReactModal__Body--open"
+  className="modal"
+  closeTimeoutMS={200}
+  contentLabel="Remove expense"
+  isOpen={false}
+  onRequestClose={[Function]}
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+>
+  <h3
+    className="modal__title"
+  >
+    Remove expense
+  </h3>
+  Are you sure you want to remove 
+  <strong>
+    Rent
+  </strong>
+   expense?
+  <div
+    className="modal__actions"
+  >
+    <button
+      className="button"
+      id="remove"
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+    <button
+      className="button button--secondary"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</Modal>
+`;
