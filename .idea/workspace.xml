@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436bd108-110e-42f9-bc03-f2ae48b44e22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -52,8 +50,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="182">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -496,7 +494,7 @@
       <workItem from="1508775263625" duration="9308000" />
       <workItem from="1508888456271" duration="743000" />
       <workItem from="1508981517298" duration="8623000" />
-      <workItem from="1509058769928" duration="9891000" />
+      <workItem from="1509058769928" duration="9973000" />
     </task>
     <task id="LOCAL-00001" summary="Add ExpensesSummary test snapshot">
       <created>1507933808359</created>
@@ -673,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509070958309</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add env.example&#10;Add instructions to set up the environment">
+      <created>1509072710100</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1509072710100</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111373000" />
+    <option name="totallyTimeSpent" value="111455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1005" extended-state="6" />
@@ -734,7 +739,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add ExpensesSummary test snapshot" />
     <MESSAGE value="Save expenses into firebase&#10;Add expenses test cases to cover store in firebase" />
     <MESSAGE value="Add enviroment variables to use firebase" />
     <MESSAGE value="Remove expense menu option" />
@@ -759,7 +763,8 @@
     <MESSAGE value="Add missing snapshots" />
     <MESSAGE value="Remove unused state" />
     <MESSAGE value="Remove extra margin bottom" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove extra margin bottom" />
+    <MESSAGE value="Add env.example&#10;Add instructions to set up the environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add env.example&#10;Add instructions to set up the environment" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1171,8 +1176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="182">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
