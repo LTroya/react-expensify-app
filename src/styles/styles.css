@@ -47,6 +47,7 @@ button:disabled {
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1;
+  margin-bottom: 1.6rem;
   padding: 1.2rem;
   text-decoration: none; }
 
@@ -55,6 +56,18 @@ button:disabled {
 
 .button--secondary {
   background: #888; }
+
+.button--google {
+  background: #dd4b39; }
+
+.button--facebook {
+  background: #3b5999; }
+
+.button--twitter {
+  background: #55acee; }
+
+.button--github {
+  background: #34465d; }
 
 .header {
   background: #364051; }

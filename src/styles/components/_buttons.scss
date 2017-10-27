@@ -6,6 +6,7 @@
   font-size: $font-size-large;
   font-weight: 300;
   line-height: 1;
+  margin-bottom: $m-size;
   padding: $s-size;
   text-decoration: none;
 }
@@ -17,3 +18,8 @@
 .button--secondary {
   background: #888;
 }
+
+.button--google { background: #dd4b39; }
+.button--facebook { background: #3b5999; }
+.button--twitter { background: #55acee; }
+.button--github { background: #34465d; }
